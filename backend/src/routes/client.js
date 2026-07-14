@@ -9,5 +9,7 @@ route.get("/device/targetCMD",CmdTargetDevice);
 route.post("/host/getCMD",incomingCmdToHost);
 route.get("/host/getDevice",getAllDevice);
 
-
+route.get("/",async (req,res)=>{
+    res.send.json({lol:"hello developer"});
+});
 export default route;
