@@ -13,9 +13,9 @@ const startServer = async () => {
 
     // 2. Start Express Listener
     const PORT = process.env.PORT || 8080;
-    app.listen(PORT, () => {
-        console.log(`Express Server running on port ${PORT}`);
-    });
+   // app.listen(PORT, () => {
+   //     console.log(`Express Server running on port ${PORT}`);
+   // });
       
 };
 
