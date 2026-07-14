@@ -9,7 +9,7 @@ dotenv.config({
 
 const startServer = async () => {
     // 1. Establish Database Connection
-    await connectDB();
+    await connectDB();//
 
     // 2. Start Express Listener
     const PORT = process.env.PORT || 8080;
